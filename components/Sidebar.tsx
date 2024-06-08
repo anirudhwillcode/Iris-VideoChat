@@ -20,7 +20,7 @@ const Sidebar = () => {
               href={item.route}
               key={item.label}
               className={cn(
-                'flex gap-4 items-center p-4 rounded-lg justify-start transition-colors duration-300',
+                'flex gap-4 items-center p-4 rounded-lg justify-start transition-colors duration-700',
                 {
                   'bg-blue-1': isActive,
                   'hover:bg-gray-700': !isActive
